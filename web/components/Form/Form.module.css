@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+}
+.form > textarea {
+  flex: 1;
+  resize: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.form > button {
+  background-color: var(--color-green) !important;
+  color: white !important;
+  transition: all 1s;
+  margin-left: 10px;
+  width: 100px;
+}
+.form > button:hover {
+  background-color: var(--color-gray) !important;
+}

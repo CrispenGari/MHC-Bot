@@ -1,0 +1,40 @@
+.message,
+.message__bot {
+  display: flex;
+  width: 70%;
+  margin: 3px 0;
+}
+.message__icon {
+  font-size: 3rem;
+}
+.message__main,
+.message__bot__main {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-green);
+  color: white;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-top-left-radius: unset;
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+.message__bot__main {
+  margin-left: unset;
+  margin-right: 5px;
+}
+.message__main > span,
+.message__bot__main > span {
+  font-size: 0.7rem;
+  color: lightgray;
+  display: flex;
+  align-self: flex-end;
+}
+
+.message__bot__main {
+  background-color: var(--main-color);
+}
+.message__bot {
+  margin-left: auto;
+}

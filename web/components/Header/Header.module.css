@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  position: sticky;
+  user-select: none;
+  user-zoom: none;
+  top: 0;
+  display: flex;
+  padding: 10px 40px;
+  background-color: var(--main-color);
+  align-items: center;
+  justify-content: space-between;
+}
+.header > img {
+  width: 50px;
+  -webkit-user-drag: none;
+  cursor: pointer;
+}
+.header > h1 {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}

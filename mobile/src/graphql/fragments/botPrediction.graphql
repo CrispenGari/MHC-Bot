@@ -1,0 +1,6 @@
+fragment BotPrediction on BotPrediction {
+  confidence
+  tagId
+  tag
+  pattern
+}

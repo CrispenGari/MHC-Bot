@@ -1,0 +1,7 @@
+mutation SendMessageToBot($input: ChatWithBotInputType!) {
+  chat(input: $input) {
+    response {
+      ...ChatWithBotResponseFragment
+    }
+  }
+}

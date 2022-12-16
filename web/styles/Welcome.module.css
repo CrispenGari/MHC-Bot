@@ -1,0 +1,46 @@
+.welcome {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  user-select: none;
+  user-zoom: none;
+  flex-direction: column;
+  background-color: var(--color-gray);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.welcome__main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.welcome__main__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-gray);
+  flex: 1;
+  padding: 10px;
+  max-width: 500px;
+  margin: 0px auto;
+}
+.welcome__main__container > p {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.welcome__main > .welcome__main__container > img {
+  -webkit-user-drag: none;
+  width: 100px;
+  margin-bottom: 30px;
+}
+.welcome__main > .welcome__main__container > button {
+  background-color: var(--color-green) !important;
+  color: white !important;
+  transition: all 1s;
+  margin-top: 30px;
+}
+.welcome__main > .welcome__main__container > button:hover {
+  background-color: var(--main-color) !important;
+}

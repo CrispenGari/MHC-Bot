@@ -1,0 +1,12 @@
+fragment ChatWithBotResponseFragment on ChatWithBotResponse {
+  success
+  prediction {
+    ...BotPrediction
+  }
+  error {
+    ...ErrorFragment
+  }
+  response {
+    ...BotResponseFragment
+  }
+}
